@@ -1,0 +1,32 @@
+new adds:
+ cross out when the task is completed.
+ npm install -g json server
+ set-Exectionpolicy -scope process -Exection Bypass
+ json-sever --watch db.json --port 3000
+ 
+ npx-server --watch -p 3000 server.json
+
+
+1.Todowrapper.js:
+ A todo wrapper is a container or component that encapsulates todo items and provides a consistent 
+ structure for displaying and managing them. It typically includes elements such as a 
+ title, description, completion checkbox, and maybe options for editing or deleting.
+ The wrapper simplifies the process of rendering todo items in a consistent and organized manner, 
+ making it easier to maintain and reuse code.
+ advantages are: encapsulation, reusability, consistency
+
+   state:
+    is a fundamental concept that refers to the data that a component manages and can change over time. It allows components to keep track of information and re-render when that information changes. 
+    State is used to represent the dynamic aspects of a component, such as user interactions, API responses, or any other data that might change during the component's lifecycle.
+   
+   hook:
+    "hooks" refer to functions that allow functional components to use state, lifecycle, and other React features that were previously only available in class components.
+
+
+2.TodoForm
+    The provided code defines a React component called TodoForm that is responsible for handling user input and adding new todo items to a list.
+
+ --> A UUID (Universally Unique Identifier) is a 128-bit number used to uniquely identify an object or entity on the internet.
+     purposes are: tracking objects,assests,managing inventory, troubleshooting issues
+ --> UUIDs can be used to generate unique identifiers for temporary objects, such as files or sessions.
+     This ensures that each object has a unique identifier and helps in managing and housekeeping temporary data.    
